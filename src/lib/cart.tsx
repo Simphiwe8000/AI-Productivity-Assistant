@@ -5,7 +5,7 @@ import { getProduct, type Product } from "./products";
 export interface CartLine {
   key: string;
   productId: string;
-  variant?: string;
+  variant?: string | undefined;
   qty: number;
 }
 

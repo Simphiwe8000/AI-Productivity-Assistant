@@ -19,7 +19,7 @@ export function NewsletterForm({ compact = false }: { compact?: boolean }) {
       onSubmit={(e) => {
         e.preventDefault();
         const r = schema.safeParse(email);
-        if (!r.success) return setError(r.error.issues[0].message);
+        if (!r.success) return setError(r.error.issues[0]?.message ?? "Invalid email");
         setError(null);
         setDone(true);
         toast.success("Subscribed", { description: "Demo signup — no email is sent yet." });

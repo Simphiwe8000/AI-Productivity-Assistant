@@ -32,7 +32,7 @@ export function NewsletterForm({ compact = false }: { compact?: boolean }) {
           aria-invalid={!!error} aria-describedby={error ? `${id}-err` : undefined}
           placeholder="Your email address"
           className="h-11 flex-1 rounded-md border bg-card px-4 text-sm text-foreground outline-none focus:ring-2 focus:ring-ring" />
-        <Button type="submit" className="h-11 px-6">Subscribe</Button>
+        <Button type="submit" variant={compact ? "secondary" : "default"} className="h-11 px-6">Subscribe</Button>
       </div>
       {error && <p id={`${id}-err`} className="mt-2 text-sm text-destructive">{error}</p>}
       {!compact && (

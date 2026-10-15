@@ -1,26 +1,14 @@
-# Precise Product Hub
+I've created a `README.md` file for your Everyday Essentials Lovable project.
 
-Implement exactly the screenshot and nothing else
+Download README.md
 
-This project was built with [Lovable](https://lovable.dev).
+It includes all four requested sections:
 
-**Live app**: https://precise-product-hub.lovable.app
+1. Project overview — The purpose of the sustainable e-commerce store.
+2. Features — Product catalogue, search, filters, shopping cart, checkout, and optional AI Shopping Assistant.
+3. Tools used — Lovable, React, TypeScript, Tailwind CSS, Supabase, and optional AI and payment integrations.
+4. Setup instructions — Getting the source code, installing dependencies, configuring environment variables, running the development server, and building for production.
 
-## Build with Lovable
+It also includes a testing checklist and responsible AI and security considerations relevant to your CAPACITI project.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/92e93794-b365-4c7b-aef8-83d08f4e5cce).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+Next step: Place `README.md` in the root folder of your Lovable project's GitHub repository, alongside `package.json`. Update the setup instructions if your generated project uses different commands or integrations.
